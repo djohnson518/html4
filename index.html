@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML4</title>
+
+</head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif" Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"sans-serif;
+}
+header {
+  background-color: #0EDCDE;
+  padding: 40px;
+	margin: auto
+  text-align: center;
+  font-size: 70px;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: antiquewhite;
+  height: 300px;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #07938D;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<body>
+
+<header>
+  <h2>Beach Life</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Famous Beaches</a></li>
+      <li><a href="#">Beach History</a></li>
+      <li><a href="#">Sustainability</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Ocean Creatures</h1>
+    <p>A blue whale’s heart is not the size of a Volkswagen Beetle, contrary to popular belief. It’s about 400 pounds and weighs about 14 times as much as an elephant’s heart 🐳.</p>
+    <p>More than 500 million people worldwide depend on coral reefs for things ranging from coastal protection to food.</p>
+	  <p>Coral reefs protect coastlines from storms and erosion. </p>
+	  <p>There is no such thing as a seagull! It’s a casual name people use for gulls.</p>
+	  <p>Kelp forests provide food and shelter to thousands of species. </p>
+  </article>
+</section>
+<aside>Let's read about sustainability in the link above.</aside>
+<footer>
+  <p>Lets go to the Beach!</p>
+</footer>
+
+</body>
+</html>
